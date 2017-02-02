@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="ejs_production.js"></script>
+<body>
+
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+</blockquote>
+
+
+    <!--<% for(var i = 0 ; i < temp1.length ; i++) {%>-->
+        <!--<p>-->
+            <!--<%= temp1[i]%>-->
+        <!--</p>-->
+    <!--<%}%>-->
+    <p><%=temp1%></p>
+
+    <% for(var i=0; i<supplies.length; i++) { %>
+    <li>
+        <a href='supplies/<%= supplies[i] %>'>
+            <%= supplies[i] %>
+        </a>
+    </li>
+    <% } %>
+
+    <p>
+        <%=obj.s1%>
+    </p>
+<p>
+    <%=obj.s2%>
+</p>
+
+<!--<form method="post" action="/samples/po">-->
+    <!--<input type="text" name="user[name]"/>-->
+    <!--<input type="text" name="user[height]"/>-->
+    <!--<input type="submit"/>-->
+<!--</form>-->
+
+<p><%=po%></p>
+<form method="post" action="/samples/po">
+    <input type="text" name="info" />
+    <input type="submit" id="mysubmit" />
+</form>
+
+</body>
+</html>
