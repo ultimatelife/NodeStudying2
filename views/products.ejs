@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>STEP4</title>
+
+    <!--Data Table-->
+    <script src="/jquery-1.12.0/jquery1.12.0.min.js"></script>
+    <link rel="stylesheet" href="/datatable/css/jquery.dataTables.min.css"></link>
+    <script src="/datatable/js/jquery.dataTables.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var results;
+            $('#example').DataTable( {
+                ajax : {
+                    url : "http://localhost:8080/products/findAll",
+                    dataSrc :''
+                }
+                , columns: [
+                    { data: '_id' },
+                    { data: '전년동월(기)비' },
+                    { data: '건설업' },
+                    { data: '공공행정' },
+                    { data : '서비스업'},
+                    { data: '전산업생산지수(원지수)' },
+                    { data: '광공업' }
+                ]
+                , "lengthMenu": [ 2, 4, 5, 10]
+            } );
+        } );
+    </script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="bs-component">
+
+        <table id="example" class="display" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>_id</th>
+                <th>전년동월(기)비</th>
+                <th>건설업</th>
+                <th>공공행정</th>
+                <th>서비스업</th>
+                <th>전산업생산지수(원지수)</th>
+                <th>광공업</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <th>_id</th>
+                <th>전년동월(기)비</th>
+                <th>건설업</th>
+                <th>공공행정</th>
+                <th>서비스업</th>
+                <th>전산업생산지수(원지수)</th>
+                <th>광공업</th>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>
+

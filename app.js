@@ -7,6 +7,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var index = require('./routes/index');
+var products = require('./routes/products');
 var test = require('./routes/test');
 var samples = require('./routes/sample');
 
@@ -37,6 +38,7 @@ app.use(function (req, res, next) {
 })
 
 app.use('/', index);
+app.use('/products', products);
 app.use('/test', test);
 app.use('/samples', samples);
 
