@@ -5,18 +5,23 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
+// var db = require("./config/db");
+var exports = module.exports = {};
+
 
 var index = require('./routes/index');
 var products = require('./routes/products');
 var test = require('./routes/test');
-var samples = require('./routes/sample');
 
-mongoose.Promise = global.Promise;
+//DB 설정
+require("./config/db");
 
-// connect to MongoDB
-mongoose.connect('mongodb://localhost/test')
-    .then(() => console.log('connection succesful'))
-.catch((err) => console.error(err));
+// mongoose.Promise = global.Promise;
+//
+// // connect to MongoDB
+// mongoose.connect('mongodb://localhost/test')
+//     .then(() => console.log('connection succesful'))
+// .catch((err) => console.error(err));
 
 var app = express();
 
@@ -40,7 +45,13 @@ app.use(function (req, res, next) {
 app.use('/', index);
 app.use('/products', products);
 app.use('/test', test);
-app.use('/samples', samples);
+
+app.get("/error_test", function (req, res, next) {
+  var err = new Error("Test Error");
+  err.status = 500;
+  next(err);
+})
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -52,16 +63,17 @@ app.use(function(req, res, next) {
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = "Error";
+  res.locals.error = err;
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error', {error : err});
 });
 
-app.listen(8080, function () {
-  console.log("server started");
+var server = app.listen(80, function () {
+  console.log("server started(port : 80)");
 })
 
-module.exports = app;
+exports.closeServer = function(){
+  server.close();
+};
