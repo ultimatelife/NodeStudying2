@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-npm test
+rm -rf Deploy
