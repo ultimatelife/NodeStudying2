@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5057c5d9-e5c3-478a-9c1f-05cebf402064" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shell_script/deploy.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deploy.sh" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/build.sh" afterPath="$PROJECT_DIR$/shell_script/build.sh" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test.sh" afterPath="$PROJECT_DIR$/shell_script/test.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shell_script/change_ip.py" afterPath="$PROJECT_DIR$/shell_script/change_ip.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/products.ejs" afterPath="$PROJECT_DIR$/views/products.ejs" />
+      <change type="DELETED" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/test.txt" afterPath="" />
+      <change type="MOVED" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/deleteDeply.sh" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/ssh_change_ip.sh" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/.idea/workspace.xml" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/build.sh" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/build.sh" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/change_ip.py" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/change_ip.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/deploy.sh" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/deploy.sh" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/server_list" afterPath="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/server_list" />
     </list>
     <ignored path="NodeStudying2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$USER_HOME$/Documents/NodeJS/NodeStudying2/.tmp/" />
+    <ignored path="$USER_HOME$/Documents/NodeJS/NodeStudying2/temp/" />
+    <ignored path="$USER_HOME$/Documents/NodeJS/NodeStudying2/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,81 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell_script/build.sh">
+      <file leaf-file-name="change_ip.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/change_ip.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell_script/deploy.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductsSchema.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/ProductsSchema.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteDeply.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell_script/deleteDeply.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell_script/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="change_ip.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shell_script/change_ip.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/products.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ip.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/config/js/ip.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -121,69 +51,73 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Documents/NodeJS/NodeStudying2" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample.js" />
-        <option value="$PROJECT_DIR$/services/operator.js" />
-        <option value="$PROJECT_DIR$/views/sample.ejs" />
-        <option value="$PROJECT_DIR$/routes/text.txt" />
-        <option value="$PROJECT_DIR$/fstest.js" />
-        <option value="$PROJECT_DIR$/routes/sample.js" />
-        <option value="$PROJECT_DIR$/test/test2.js" />
-        <option value="$PROJECT_DIR$/test/test1.js" />
-        <option value="$PROJECT_DIR$/test/PrototypeTest.js" />
-        <option value="$PROJECT_DIR$/models/TestModel.js" />
-        <option value="$PROJECT_DIR$/models/TestSchema.js" />
-        <option value="$PROJECT_DIR$/bower_components/jquery-1.12.0/jquery1.12.0.min.js" />
-        <option value="$PROJECT_DIR$/bower_components/datatable/css/jquery.dataTables.min.css" />
-        <option value="$PROJECT_DIR$/bower_components/datatable/js/jquery.dataTables.min.js" />
-        <option value="$PROJECT_DIR$/routes/test.js" />
-        <option value="$PROJECT_DIR$/spec/api_test.js" />
-        <option value="$PROJECT_DIR$/data/data.json" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/models/ProductsSchema.js" />
-        <option value="$PROJECT_DIR$/routes/products.js" />
-        <option value="$PROJECT_DIR$/config/db.js" />
-        <option value="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/views/error.ejs" />
-        <option value="$PROJECT_DIR$/test/api_test.js" />
-        <option value="$PROJECT_DIR$/app_test.js" />
-        <option value="$PROJECT_DIR$/test.sh" />
-        <option value="$PROJECT_DIR$/build.sh" />
-        <option value="$PROJECT_DIR$/data/data_loading.js" />
-        <option value="$PROJECT_DIR$/data/data_loading.py" />
-        <option value="$PROJECT_DIR$/data/data.csv" />
-        <option value="$PROJECT_DIR$/data/data_load.sh" />
-        <option value="$PROJECT_DIR$/public/ip.js" />
-        <option value="$PROJECT_DIR$/public/datatable/js/data_table_app.js" />
-        <option value="$PROJECT_DIR$/deploy.sh" />
-        <option value="$PROJECT_DIR$/shell_script/test.sh" />
-        <option value="$PROJECT_DIR$/shell_script/build.sh" />
-        <option value="$PROJECT_DIR$/shell_script/change_ip.py" />
-        <option value="$PROJECT_DIR$/shell_script/test.txt" />
-        <option value="$PROJECT_DIR$/shell_script/server_list" />
-        <option value="$PROJECT_DIR$/views/products.ejs" />
-        <option value="$PROJECT_DIR$/public/config/js/ip.js" />
-        <option value="$PROJECT_DIR$/shell_script/deleteDeply.sh" />
-        <option value="$PROJECT_DIR$/shell_script/deploy.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/sample.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/services/operator.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/views/sample.ejs" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/text.txt" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/fstest.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/sample.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/test/test2.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/test/test1.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/test/PrototypeTest.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/models/TestModel.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/models/TestSchema.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/jquery-1.12.0/jquery1.12.0.min.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/datatable/css/jquery.dataTables.min.css" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/datatable/js/jquery.dataTables.min.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/test.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/spec/api_test.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data.json" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/package.json" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/models/ProductsSchema.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/products.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/config/db.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/bootstrap/css/bootstrap.min.css" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/bootstrap/js/bootstrap.min.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/app.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/views/error.ejs" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/test/api_test.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/app_test.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/test.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/build.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data_loading.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data_loading.py" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data.csv" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data_load.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/ip.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/datatable/js/data_table_app.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/deploy.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/test.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/test.txt" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/views/products.ejs" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/config/js/ip.js" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/deleteDeply.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/server_list" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/change_ip.py" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/ssh_change_ip.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/deploy.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/build.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/ssh_change_ip.sh" />
+        <option value="$USER_HOME$/Documents/NodeJS/NBP_Project/package.json" />
+        <option value="$USER_HOME$/Documents/NodeJS/NBP_Project/bin/www" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
+    <package-json value="$USER_HOME$/Documents/NodeJS/NBP_Project/package.json" />
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$USER_HOME$/Documents/NodeJS/NBP_Project/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -226,7 +160,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="NodeStudying2">
+            <PATH_ELEMENT USER_OBJECT="NBP_Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -236,7 +170,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="NodeStudying2">
+            <PATH_ELEMENT USER_OBJECT="NBP_Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -254,35 +188,35 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.2.2" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeAmicom" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/NodeJS/NodeAmicom" />
     <property name="editor.config.accepted" value="true" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$USER_HOME$/Documents/NodeJS/NodeStudying2/node_modules/mocha" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shell_script" />
-      <recent name="$PROJECT_DIR$/public/config/js" />
-      <recent name="$PROJECT_DIR$/public/config" />
-      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/config/js" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/config" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/routes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/public/images/error" />
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/public/images/error" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/data" />
+      <recent name="$USER_HOME$/Documents/NodeJS/NodeStudying2/public" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.PrototypeTest.js">
-    <configuration default="false" name="test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test1.js" working-dir="$PROJECT_DIR$/test">
+    <configuration default="false" name="test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test1.js" working-dir="$USER_HOME$/Documents/NodeJS/NBP_Project/test">
       <method />
     </configuration>
-    <configuration default="false" name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test2.js" working-dir="$PROJECT_DIR$/test">
+    <configuration default="false" name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="test2.js" working-dir="$USER_HOME$/Documents/NodeJS/NBP_Project/test">
       <method />
     </configuration>
-    <configuration default="false" name="PrototypeTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="PrototypeTest.js" working-dir="$PROJECT_DIR$/test">
+    <configuration default="false" name="PrototypeTest.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="PrototypeTest.js" working-dir="$USER_HOME$/Documents/NodeJS/NBP_Project/test">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -374,12 +308,12 @@
       <workItem from="1486197059049" duration="5896000" />
       <workItem from="1486304360632" duration="183000" />
       <workItem from="1486343740193" duration="9436000" />
-      <workItem from="1486359643033" duration="12948000" />
+      <workItem from="1486359643033" duration="16440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63058000" />
+    <option name="totallyTimeSpent" value="66550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -388,7 +322,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.47709924" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -420,14 +354,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/node_modules/mongoose/lib/aggregate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="326" column="0" selection-start-line="326" selection-start-column="0" selection-end-line="326" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text.txt">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
@@ -441,44 +375,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/sample.js" />
-    <entry file="file://$PROJECT_DIR$/test/test1.js" />
-    <entry file="file://$PROJECT_DIR$/test/PrototypeTest.js" />
-    <entry file="file://$PROJECT_DIR$/test/test2.js" />
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-datatables/demo/src/archives/dist/angular-datatables.min.js" />
-    <entry file="file://$PROJECT_DIR$/views/sample.ejs" />
-    <entry file="file://$PROJECT_DIR$/bower_components/jquery-3.1.1.min/index.js" />
-    <entry file="file://$PROJECT_DIR$/bower_components/jquery-1.12.0/jquery1.12.0.min.js" />
-    <entry file="file://$PROJECT_DIR$/bower_components/datatable/js/jquery.dataTables.min.js" />
-    <entry file="file://$PROJECT_DIR$/bower_components/datatable/css/jquery.dataTables.min.css" />
-    <entry file="file://$PROJECT_DIR$/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/TestSchema.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/sample.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/test/test1.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/test/PrototypeTest.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/test/test2.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/angular-datatables/demo/src/archives/dist/angular-datatables.min.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/views/sample.ejs" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/jquery-3.1.1.min/index.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/jquery-1.12.0/jquery1.12.0.min.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/datatable/js/jquery.dataTables.min.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/bower_components/datatable/css/jquery.dataTables.min.css" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/models/TestSchema.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/apiTest.js" />
-    <entry file="file://$PROJECT_DIR$/services/operator.js" />
-    <entry file="file://$PROJECT_DIR$/routes/text.txt" />
-    <entry file="file://$PROJECT_DIR$/routes/fstest.js" />
-    <entry file="file://$PROJECT_DIR$/data/data.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/db.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/spec/apiTest.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/services/operator.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/text.txt" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/routes/fstest.js" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data.json" />
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/config/db.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -486,14 +405,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/bootstrap/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22423">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
@@ -501,31 +423,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/error/logo_naver.gif">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/images/error/logo_naver.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/error/lg_naver.gif">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/images/error/lg_naver.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/error.ejs">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/views/error.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_loading.py">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/data/data_loading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
@@ -533,7 +455,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_test.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/app_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
@@ -541,7 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="77" column="17" selection-start-line="77" selection-start-column="17" selection-end-line="77" selection-end-column="17" />
@@ -549,7 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_loading.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/data/data_loading.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
@@ -557,7 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/api_test.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/test/api_test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
@@ -565,7 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/test.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/routes/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
@@ -573,7 +495,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data.csv">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/data/data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
@@ -581,7 +503,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_load.sh">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/data/data_load.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="82" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="82" />
@@ -589,7 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/datatable/css/jquery.dataTables.min.css">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/datatable/css/jquery.dataTables.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="0" column="318" selection-start-line="0" selection-start-column="318" selection-end-line="0" selection-end-column="318" />
@@ -597,7 +519,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/datatable/js/jquery.dataTables.min.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/datatable/js/jquery.dataTables.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="145" />
@@ -607,7 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/jquery-1.12.0/jquery1.12.0.min.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/jquery-1.12.0/jquery1.12.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="1" column="311" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1183" />
@@ -617,7 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/products.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/routes/products.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -625,55 +547,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/server_list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/change_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/config/js/ip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/datatable/js/data_table_app.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/datatable/js/data_table_app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
@@ -681,34 +555,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/products.ejs">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/models/ProductsSchema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/deleteDeply.sh">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NodeStudying2/shell_script/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-933">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell_script/deploy.sh">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/public/config/js/ip.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/ProductsSchema.js">
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/views/products.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/ssh_change_ip.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/server_list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NodeJS/NBP_Project/shell_script/change_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>

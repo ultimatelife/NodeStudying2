@@ -1,4 +1,4 @@
-lb_ip = "192.168.43.117"
+lb_ip = "192.168.219.131"
 
 try:
     f = open("../public/config/js/ip.js", "w")
